@@ -1,0 +1,19 @@
+#http:
+  # Add the router
+#  routers:
+#    your-router:
+#      entryPoints:
+#        - https
+#      middlewares:
+#      service: your-service
+#      rule: Host(`host.domain.tld`)
+#      tls:
+#        certResolver: letsencrypt
+
+  # Add the service
+#  services:
+#    your-service:
+#      loadBalancer:
+#        servers:
+#        - url: https://your-another-service.domain.tld/
+#        passHostHeader: false
